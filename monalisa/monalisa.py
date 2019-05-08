@@ -101,7 +101,9 @@ objs = bpy.data.objects
 
 objs.remove(objs["Cube"],do_unlink=True)
 
-# read svg file
+############################################
+# read svg file <---------set svg image here 
+############################################
 
 bpy.ops.import_curve.svg (filepath="monalisa.svg")
 
